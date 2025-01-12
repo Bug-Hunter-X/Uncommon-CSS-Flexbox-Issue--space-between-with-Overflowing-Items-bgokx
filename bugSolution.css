@@ -1,0 +1,1 @@
+To fix this, we can use the flex-shrink property: .container { display: flex; justify-content: space-between; }  .item { width: 100px; flex-shrink: 1; }  Setting flex-shrink to 1 (the default) allows items to shrink proportionally if needed, resolving the overlap issue and ensuring proper space distribution.
